@@ -6,6 +6,6 @@ Feature: Determine if string is Palindrome or not. A string is palindrome if rea
     Then the result should be "true"
 
     Scenario: Invalid Palindrome
-      Given I entered string "Coin"
+      Given I entered string "Coinx"
       When I test it for Palindrome
       Then the result should be "false"
